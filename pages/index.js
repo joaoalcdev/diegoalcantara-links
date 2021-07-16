@@ -173,7 +173,7 @@ export default function Home() {
                 src="https://www.youtube.com/embed/18GtWdY4qq8"
                 title="YouTube Video Player"
                 frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
                 allowfullscreen="allow"
               ></iframe>
               <img
