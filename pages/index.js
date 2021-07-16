@@ -96,7 +96,7 @@ export default function Home() {
                 class="link-grid__item"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://api.whatsapp.com/send?phone=++558881266540&text=Olá, Ygor Gondim!"
+                href="#"
               >
                 <svg
                   class="link-grid__icon"
@@ -113,7 +113,7 @@ export default function Home() {
                 class="link-grid__item"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.youtube.com/user/ygorgondim"
+                href="https://www.youtube.com/"
               >
                 <svg
                   class="link-grid__icon"
@@ -125,7 +125,7 @@ export default function Home() {
               </a>
             </li>
             {/* lorem */}
-            <li class="card-social">
+            {/* <li class="card-social">
               <a
                 class="link-grid__item"
                 target="_blank"
@@ -140,9 +140,9 @@ export default function Home() {
                   <path d="M22 7h-7v-2h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14h-8.027c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988h-6.466v-14.967h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zm-3.466-8.988h3.584c2.508 0 2.906-3-.312-3h-3.272v3zm3.391 3h-3.391v3.016h3.341c3.055 0 2.868-3.016.05-3.016z" />
                 </svg>
               </a>
-            </li>
+            </li> */}
             {/* lorem */}
-            <li class="card-social">
+            {/* <li class="card-social">
               <a
                 class="link-grid__item"
                 target="_blank"
@@ -159,7 +159,7 @@ export default function Home() {
                   <path d="M19 24h-14c-2.761 0-5-2.239-5-5v-14c0-2.761 2.239-5 5-5h14c2.762 0 5 2.239 5 5v14c0 2.761-2.238 5-5 5zm-3.288-4.888l-.424-1.48 1.024.952.968.896 1.72 1.52v-14.352c0-.912-.736-1.648-1.64-1.648h-10.72c-.904 0-1.64.736-1.64 1.648v10.816c0 .912.736 1.648 1.64 1.648h9.072zm-1.44-3.664c1.768-.056 2.448-1.216 2.448-1.216 0-2.576-1.152-4.664-1.152-4.664-1.152-.864-2.248-.84-2.248-.84l-.112.128c1.36.416 1.992 1.016 1.992 1.016-.832-.456-1.648-.68-2.408-.768-.576-.064-1.128-.048-1.616.016l-.136.016c-.28.024-.96.128-1.816.504l-.472.232s.664-.632 2.104-1.048l-.08-.096s-1.096-.024-2.248.84c0 0-1.152 2.088-1.152 4.664 0 0 .672 1.16 2.44 1.216l.536-.664c-1.016-.304-1.4-.944-1.4-.944l.224.136.032.024.032.018.009.004.031.018c.2.112.4.2.584.272.328.128.72.256 1.176.344.6.112 1.304.152 2.072.008.376-.064.76-.176 1.16-.344.28-.104.592-.256.92-.472 0 0-.4.656-1.448.952l.528.648zm-3.72-3.736c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888.008-.488-.36-.888-.816-.888zm2.92 0c-.456 0-.816.4-.816.888s.368.888.816.888c.456 0 .816-.4.816-.888s-.36-.888-.816-.888z" />
                 </svg>
               </a>
-            </li>
+            </li> */}
           </ul>
 
           {/* youtube video frame */}
@@ -191,7 +191,7 @@ export default function Home() {
                 <span class="highlight">.</span>
               </p>
               <p class="resource__button">
-                <a class="button" href="https://powertext.net/" target="_blank">
+                <a class="button" href="#" target="_blank">
                   Acessar Plataforma
                 </a>
               </p>
@@ -221,7 +221,7 @@ export default function Home() {
                 <span class="highlight">.</span>
               </p>
               <p class="resource__button">
-                <a class="button" href="https://powertext.net/" target="_blank">
+                <a class="button" href="#" target="_blank">
                   Baixar Arquivo
                 </a>
               </p>
