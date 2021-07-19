@@ -523,7 +523,7 @@ footer span:hover {
   padding-top: 1rem;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 
   box-shadow: 0 -0.25rem hsl(var(--hsl) 75% 50%);
 
