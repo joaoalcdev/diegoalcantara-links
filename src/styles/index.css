@@ -36,7 +36,7 @@
   --border-color-dark: hsl(0, 0%, 89%);
 
   /* card system */
-  --card-black-bg:#141318;
+  --card-black-bg: #141318;
 
   /* shadows */
   --shadow: hsl(var(--hsl) 8% 13%);
@@ -109,8 +109,6 @@
   --text-regular: 400;
 }
 
-
-
 @media (prefers-color-scheme: dark) {
   :root {
     --background: var(--body-color);
@@ -155,23 +153,6 @@ h5 {
   color: var(--heading-color);
 }
 
-img {
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-}
-
-::selection {
-  background: var(--selection-bg);
-  color: var(--selection-text);
-}
-::-moz-selection {
-  background: var(--selection-bg);
-  color: var(--selection-text);
-}
-
 a {
   text-decoration: none;
   color: var(--button-text);
@@ -205,6 +186,56 @@ a {
 .button:active {
   background-color: var(--button-active);
   color: var(--button-text-active);
+}
+
+iframe {
+  width: 100%;
+  height: 150px;
+  /* height: 230px; */
+  vertical-align: top;
+  object-fit: cover;
+  order: 3 !important;
+}
+
+video {
+  width: 100%;
+  height: 150px;
+  /* height: 230px; */
+  vertical-align: top;
+  object-fit: cover;
+  order: 2 !important;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+img {
+  width: 100%;
+  height: 150px;
+  /* height: 230px; */
+  vertical-align: top;
+  object-fit: cover;
+
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+::selection {
+  background: var(--selection-bg);
+  color: var(--selection-text);
+}
+::-moz-selection {
+  background: var(--selection-bg);
+  color: var(--selection-text);
 }
 
 .header {
@@ -248,6 +279,43 @@ a {
 
   margin-top: 1rem;
   top: -87px;
+}
+
+/* profile Diego */
+.profile-card {
+  position: relative;
+  width: 100%;
+  border-radius: 1.5rem;
+
+  top: -72px;
+}
+
+.profile-card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.profile-card__avatar {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  width: 4rem;
+  box-shadow: 0 0 0 0.2rem var(--dark-base-color),
+    0 1rem 5rem -1.25rem hsl(var(--hsl) 75% 50%);
+  margin: 0 0 1rem;
+
+  transition: all 0.3s;
+}
+.profile-card__avatar:hover {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  width: 4rem;
+  box-shadow: 0 0 0 0.1rem hsl(var(--hsl) 75% 50%),
+    0 1rem 1rem -1.25rem hsl(var(--hsl) 75% 50%);
+  margin: 0 0 1rem;
 }
 
 .wrapper {
@@ -416,35 +484,6 @@ a {
   margin-top: -4rem;
 }
 
-iframe {
-  width: 100%;
-  height: 150px;
-  /* height: 230px; */
-  vertical-align: top;
-  object-fit: cover;
-  order: 3 !important;
-}
-
-video {
-  width: 100%;
-  height: 150px;
-  /* height: 230px; */
-  vertical-align: top;
-  object-fit: cover;
-  order: 3 !important;
-}
-
-img {
-  width: 100%;
-  height: 150px;
-  /* height: 230px; */
-  vertical-align: top;
-  object-fit: cover;
-
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-}
-
 .resource p {
   margin: 0;
 }
@@ -455,6 +494,14 @@ img {
 
 .tsp {
   opacity: 0.8;
+}
+
+footer a {
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -o-user-select: text;
+  user-select: text;
 }
 
 footer span {
@@ -481,43 +528,6 @@ footer span:hover {
   box-shadow: 0 -0.25rem hsl(var(--hsl) 75% 50%);
 
   width: 100%;
-}
-
-/* profile Diego */
-
-.profile-card {
-  position: relative;
-  width: 100%;
-  border-radius: 1.5rem;
-
-  top: -72px;
-}
-
-.profile-card__info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-.profile-card__avatar {
-  border-radius: 50%;
-  max-width: 100%;
-  height: auto;
-  width: 4rem;
-  box-shadow: 0 0 0 0.2rem var(--dark-base-color),
-    0 1rem 5rem -1.25rem hsl(var(--hsl) 75% 50%);
-  margin: 0 0 1rem;
-
-  transition: all 0.3s;
-}
-.profile-card__avatar:hover {
-  border-radius: 50%;
-  max-width: 100%;
-  height: auto;
-  width: 4rem;
-  box-shadow: 0 0 0 0.1rem hsl(var(--hsl) 75% 50%), 0 1rem 1rem -1.25rem hsl(var(--hsl) 75% 50%);
-  margin: 0 0 1rem;
 }
 
 /* track out */
