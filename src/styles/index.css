@@ -1,13 +1,14 @@
-/* reset */
+/* reset website config */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 
-  order: 1;
+  order: 1 !important;
 }
 
+/* root system variables */
 :root {
   /* main color */
   --hsl: 210; /* main color */
@@ -113,6 +114,7 @@
   --text-regular: 400;
 }
 
+/* dark theme prefers*/
 @media (prefers-color-scheme: dark) {
   :root {
     --background: var(--body-color);
@@ -125,6 +127,7 @@
   }
 }
 
+/* light theme prefers */
 @media (prefers-color-scheme: light) {
   :root {
     --background: var(--body-color);
@@ -230,7 +233,7 @@ iframe {
   /* height: 230px; */
   vertical-align: top;
   object-fit: cover;
-  order: 3 !important;
+  order: 5 !important;
 }
 
 video {
@@ -239,7 +242,7 @@ video {
   /* height: 230px; */
   vertical-align: top;
   object-fit: cover;
-  order: 2 !important;
+  order: 4 !important;
 
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -265,6 +268,7 @@ img {
   user-select: none;
 }
 
+/* selection section text */
 ::selection {
   background: var(--selection-bg);
   color: var(--selection-text);
@@ -274,6 +278,7 @@ img {
   color: var(--selection-text);
 }
 
+/* header section website */
 .header {
   background-color: var(--header-color-base);
   text-align: center;
@@ -317,7 +322,7 @@ img {
   top: -87px;
 }
 
-/* profile Diego */
+/* profile section card */
 .profile-card {
   position: relative;
   width: 100%;
@@ -353,7 +358,7 @@ img {
     0 1rem 1rem -1.25rem hsl(var(--hsl) 75% 50%);
   margin: 0 0 1rem;
 }
-
+/* body section content */
 .wrapper {
   padding: 1rem;
   max-width: 24rem;
@@ -398,6 +403,7 @@ img {
   color: hsl(var(--hsl) 75% 50%);
 }
 
+/* card section */
 .card {
   background-color: var(--card-color);
   border-radius: 0.5rem;
@@ -405,6 +411,8 @@ img {
   margin: 0 0 2rem;
   overflow: hidden;
 }
+
+/* social card section */
 .card-social {
   border-radius: 0.5rem;
   margin: 0 0 2rem;
@@ -470,6 +478,7 @@ img {
   color: var(--social-icon-text-hover);
 }
 
+/* resource section card */
 .resource__title {
   margin-top: -3rem;
   color: hsl(var(--hsl) 75% 50%);
@@ -505,6 +514,7 @@ img {
   box-shadow: 0 4px 1rem -0.5rem var(--shadow);
 }
 
+/* resource video card */
 .resource__icon__video {
   margin-top: -0.75rem;
   vertical-align: bottom;
@@ -528,10 +538,7 @@ img {
   text-align: right;
 }
 
-.tsp {
-  opacity: 0.8;
-}
-
+/* footer */
 footer a {
   -webkit-user-select: text;
   -khtml-user-select: text;

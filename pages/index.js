@@ -130,7 +130,7 @@ export default function Home() {
                 class="link-grid__item"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.behance.net/ygorgondim/projects"
+                href="#"
               >
                 <svg
                   class="link-grid__icon"
@@ -147,7 +147,7 @@ export default function Home() {
                 class="link-grid__item"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://discord.gg/fGrzNyanPU"
+                href="#"
               >
                 <svg
                   class="link-grid__icon"
@@ -162,7 +162,7 @@ export default function Home() {
             </li>
           </ul>
 
-          {/* youtube video frame */}
+          {/* video section card */}
           <h2 class="heading heading-highlight">Conteúdos</h2>
           <article class="card resource">
             <div class="resource__container">
@@ -214,6 +214,7 @@ export default function Home() {
             </div>
           </article>
 
+          {/* normal card */}
           <h2 class="heading heading-highlight">Downloads</h2>
           <article class="card resource">
             <img
