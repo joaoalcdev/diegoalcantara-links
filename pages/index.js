@@ -176,7 +176,14 @@ export default function Home() {
                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
                 allowfullscreen="allow"
               ></iframe> */}
-              <video width="400" height="315" class="card" poster="calendarbg.jpg" controls played>
+              <video
+                width="400"
+                height="315"
+                class="card"
+                poster="calendarbg.jpg"
+                controls
+                played
+              >
                 <source src="lastvideo.mp4" type="video/mp4"></source>
                 <source src="lastvideo.mp4" type="video/ogg"></source>
               </video>
@@ -196,7 +203,11 @@ export default function Home() {
                 <span class="highlight">.</span>
               </p>
               <p class="resource__button">
-                <a class="button" href="#" target="_blank">
+                <a
+                  class="button"
+                  href="https://www.youtube.com/watch?v=18GtWdY4qq8&ab_channel=ItaloMarsili"
+                  target="_blank"
+                >
                   Acessar Plataforma
                 </a>
               </p>
@@ -227,7 +238,8 @@ export default function Home() {
                 <span class="highlight">.</span>
               </p>
               <p class="resource__button">
-                <a class="button" href="#" target="_blank">
+                {/* substituir disabled por button e adicionar "href" = "download" */}
+                <a class="disabled" download="calendar.png">
                   Baixar Arquivo
                 </a>
               </p>

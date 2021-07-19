@@ -49,6 +49,10 @@
   --button-text-hover: hsl(var(--hsl) 0% 8%);
   --button-text-active: hsl(var(--hsl) 0% 8%);
 
+  --button-disable: hsl(var(--hsl) 3% 50%);
+  --button-hover-disabled: hsl(var(--hsl) 3% 70%);
+  --button-active-disabled: hsl(var(--hsl) 3% 40%);
+
   /* social icons */
   --social-icon-button: hsl(var(--hsl) 70% 49%);
   --social-icon-button-hover: hsl(var(--hsl) 100% 65%);
@@ -116,6 +120,7 @@
     --heading-color: var(--title);
     --card-color: var(--card-black-bg);
     --action: var(--button);
+    --action-disabled: var(--button-disable);
     --shadow: #000;
   }
 }
@@ -127,6 +132,7 @@
     --heading-color: var(--title);
     --card-color: var(--card-black-bg);
     --action: var(--button);
+    --action-disabled: var(--button-disable);
     --shadow: #000;
   }
 }
@@ -165,6 +171,36 @@ a {
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
+}
+
+a.disabled {
+  pointer-events: active;
+  cursor: default;
+
+  background-color: var(--action-disabled);
+  color: var(--button-text);
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 0.5rem;
+  transition: color, background-color 0.5s ease-in-out;
+  margin: 1rem 0 0;
+}
+
+a.disabled:hover {
+  pointer-events: active;
+  cursor: not-allowed;
+
+  background-color: var(--button-hover-disabled);
+  color: var(--button-text-hover);
+}
+
+a.disabled:active {
+  pointer-events: active;
+  cursor: not-allowed;
+
+  background-color: var(--button-active-disabled);
+  color: var(--button-text-active);
 }
 
 .button {
