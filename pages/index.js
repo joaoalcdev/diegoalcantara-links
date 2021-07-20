@@ -184,8 +184,8 @@ export default function Home() {
           <article class="card resource">
             <div class="resource__container">
               <video
-                width="2"
-                height="2"
+                width="1"
+                height="1"
                 class="card"
                 poster="preview.gif"
                 controls
