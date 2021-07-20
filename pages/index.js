@@ -237,17 +237,14 @@ export default function Home() {
                 allowfullscreen="allow"
               ></iframe> */}
               <video
-                width="400"
-                height="315"
+                width="10"
+                height="10"
                 class="card"
-                poster="calendarbg.jpg"
+                poster="preview.gif"
                 controls
-                preload="false"
               >
                 <source src="lastvideo.mp4" type="video/mp4"></source>
-                <source src="lastvideo.mp4" type="video/ogg"></source>
               </video>
-
               <img
                 class="resource__icon__video"
                 src="youtubelogo.png"
