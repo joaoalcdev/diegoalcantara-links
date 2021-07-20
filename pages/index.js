@@ -237,8 +237,8 @@ export default function Home() {
                 allowfullscreen="allow"
               ></iframe> */}
               <video
-                width="10"
-                height="10"
+                width="2"
+                height="2"
                 class="card"
                 poster="preview.gif"
                 controls
