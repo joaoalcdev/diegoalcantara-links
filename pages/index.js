@@ -216,12 +216,10 @@ export default function Home() {
             <path d="M22 6c1.104 0 2 .896 2 2v12c0 1.104-.896 2-2 2h-20c-1.104 0-2-.896-2-2v-12c0-1.104.896-2 2-2h5v-2c0-1.104.896-2 2-2h6c1.104 0 2 .896 2 2v2h5zm0 2.5c0-.276-.224-.5-.5-.5h-19c-.276 0-.5.224-.5.5v11c0 .276.224.5.5.5h19c.276 0 .5-.224.5-.5v-11zm-9 4.5h3v2h-3v3h-2v-3h-3v-2h3v-3h2v3zm1.5-9h-5c-.276 0-.5.224-.5.5v1.5h6v-1.5c0-.276-.224-.5-.5-.5" />
           </svg>
 
-          <div>
             {/* <div class="object__dotted04"></div> */}
             <div class="object__dotted03"></div>
             <div class="object__dotted02"></div>
             <div class="object__dotted01"></div>
-          </div>
           {/* assets background */}
 
           {/* video section card */}
@@ -296,13 +294,13 @@ export default function Home() {
                 Cronograma
               </h3>
               <p>
-                Meu cronograma de estudo e rotina que, me ajudou a
-                passar para medicina
+                Meu cronograma de estudo e rotina que, me ajudou a passar para
+                medicina
                 <span class="highlight">.</span>
               </p>
               <p class="resource__button">
                 {/* substituir disabled por button e adicionar "href" = "download" */}
-                <a class="disabled" download="calendar.png">
+                <a class="disabled disabled-text" download="calendar.png">
                   Baixar Arquivo
                 </a>
               </p>
