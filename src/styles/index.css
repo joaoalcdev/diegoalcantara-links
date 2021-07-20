@@ -9,7 +9,7 @@
 /* root system variables */
 :root {
   /* main color */
-  --hsl: 145; /* 140 - 210 -  */
+  --hsl: 145; /* 140 - 145 - 210 -  */
 
   /* header layout */
   --header-color-base: #141318;
